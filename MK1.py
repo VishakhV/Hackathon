@@ -13,7 +13,7 @@ from firebase_admin import firestore
 from firebase_admin import credentials
 import urllib.request
 
-cred = credentials.Certificate('firebase cred file.json')
+cred = credentials.Certificate('fir-3e64a-firebase-adminsdk-q37a4-356dfa0556.json')
 app = firebase_admin.initialize_app(cred)
 db = firestore.client()
 
